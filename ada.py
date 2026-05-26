@@ -1,8 +1,8 @@
 def main():
     print("=== Простой калькулятор ===")
     try:
-        a = float(input("Введи первое число: "))
-        b = float(input("Введи второе число: "))
+        a = float(input("Введите первое число: "))
+        b = float(input("Введите второе число: "))
         op = input("Выбери операцию (+, -, *, /, ^): ")
 
         if op == '+':
@@ -24,7 +24,7 @@ def main():
 
         print(f"Результат: {a} {op} {b} = {result}")
     except ValueError:
-        print("Пожалуйста, вводи только числа.")
+        print("Пожалуйста, вводите только числа.")
 
 if __name__ == "__main__":
     main()
