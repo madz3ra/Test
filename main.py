@@ -16,13 +16,13 @@ def main():
                 print("Ошибка: деление на ноль!")
                 return
             result = a / b
-        elif op == '**' or op == '^':
-            result = a ** b
         elif op == '%':
             if b == 0:
                 print("Ошибка: деление на ноль!")
                 return
             result = a % b
+        elif op == '**' or op == '^':
+            result = a ** b
         else:
             print("Неизвестная операция!")
             return
